@@ -1671,7 +1671,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .colorlib-nav-toggle.active i::before,
 .colorlib-nav-toggle.active i::after {
-  background: #000;
+  background: #eee;
 }
 .colorlib-nav-toggle.dark.active i::before,
 .colorlib-nav-toggle.dark.active i::after {
@@ -1691,11 +1691,11 @@ body.offcanvas .colorlib-nav-toggle {
   *display: inline;
   width: 30px;
   height: 2px;
-  color: #000;
+  color: #eee;
   font: bold 14px/0.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
-  background: #000;
+  background: #eee;
   -webkit-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -1705,7 +1705,7 @@ body.offcanvas .colorlib-nav-toggle {
   content: "";
   width: 30px;
   height: 2px;
-  background: #000;
+  background: #eee;
   position: absolute;
   left: 0;
   -webkit-transition: 0.2s;
@@ -1715,7 +1715,7 @@ body.offcanvas .colorlib-nav-toggle {
 .colorlib-nav-toggle.dark i {
   position: relative;
   color: #000;
-  background: #000;
+  background: #eee;
   -webkit-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -1783,6 +1783,7 @@ body.offcanvas .colorlib-nav-toggle {
   .colorlib-nav-toggle {
     opacity: 1;
     visibility: visible;
+    color: white;
   }
 }
 
